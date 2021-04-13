@@ -1,0 +1,15 @@
+[
+  {
+    "essential": true,
+    "memory": 512,
+    "name": "nginx-web",
+    "cpu": 2,
+    "image": "272512540363.dkr.ecr.eu-west-2.amazonaws.com/docker-images:nginx-web-46",
+    "portMappings": [
+        {
+            "containerPort": 80
+        }
+    ],
+    "environment": []
+  }
+]
